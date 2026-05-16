@@ -1,0 +1,9 @@
+name: heya  
+on: 
+  workflow_dispatch:
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello to me
+        run: echo" hello $USER
